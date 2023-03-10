@@ -95,3 +95,77 @@ header a:hover{
     background-size: cover;
     background-position: center center;
 }
+#somos-proya{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 12px;
+    flex-direction: column;
+    /*background-color: rgba(16, 7, 36, 0.815);*/
+    /*color: white;*/
+    
+    /*background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(media/IMG_20230114_063044_363.jpg);*/
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#Proyectos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#Proyectos .container{
+    padding: 100px 0px;
+}
+
+#Proyectos h2{
+    margin-top: 0;
+}
+
+#Proyectos p{
+   display: none;
+}
+
+#Proyectos .carta{
+
+}
+
+.carta:first-child{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/desarrollo.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta:nth-child(2){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/desarrollo.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/IMG_20230114_063044_363.jpg);
+    background-position: center center;
+    background-size: cover;
+}
